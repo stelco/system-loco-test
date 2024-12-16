@@ -1,0 +1,19 @@
+.container {
+    padding: 100px;
+    background: #dee5ff;
+    height: calc(100vh - 200px);
+  }
+  
+  .header {
+    margin: 20px 0;
+    h1 {
+        margin-bottom: 10px;
+    }
+  } 
+  
+  @media (max-width: 768px) {
+    .container {
+      background: transparent;
+      padding: 0;
+    }
+  }
